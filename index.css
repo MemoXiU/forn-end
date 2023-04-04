@@ -1,0 +1,44 @@
+header{
+    background-color: blue;
+    height: 10vw;
+}
+
+main{
+    background-color: gray;
+    height: 80vh;
+}
+footer{
+    background-color: red;
+    height: 10vh;
+}
+#header_logo{
+    background-color:  rgb(230, 34, 230);
+    width: 10vw;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+#header_menu{
+    background-color: rgb(74, 112, 112);
+    width: 10vw;
+    float: left;
+    height: 100%;
+
+}
+#header_busqueda{
+    background-color: rgb(0, 216, 112);
+    width: 40vw;
+    float: left;
+    height: 100%;
+}
+#header_boton{
+    background-color: rgb(155, 39, 39);
+    width: 30vw;
+    float: left;
+    height: 100%;
+}
+
+
+
+
+
