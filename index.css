@@ -1,6 +1,9 @@
 header{
     background-color: blue;
     height: 10vw;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main{
@@ -11,12 +14,10 @@ footer{
     background-color: red;
     height: 10vh;
 }
-#header_logo{
-    background-color:  rgb(230, 34, 230);
+#header_logo {
+    background-color: rgb(22, 22, 188);
     width: 10vw;
-    float: left;
-    height: 100%;
-    text-align: center;
+
 }
 #header_menu{
     background-color: rgb(74, 112, 112);
