@@ -1,45 +1,119 @@
-header{
-    background-color: blue;
-    height: 10vw;
-    text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("fondo_manga/manga3.jpg");
+    background-size: cover;
+
+
+}
+
+header {
+    background-color: #020203;
+    color: #000000;
+    padding: 1em;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-main{
-    background-color: gray;
-    height: 80vh;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-footer{
-    background-color: red;
-    height: 10vh;
-}
-#header_logo {
-    background-color: rgb(22, 22, 188);
-    width: 10vw;
 
+nav li {
+    margin-left: 1em;
 }
-#header_menu{
-    background-color: rgb(74, 112, 112);
-    width: 10vw;
+
+nav a {
+    color: #f9f4f4;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+.producto {
+    background-color: #3dc91b;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0)
+}
+
+.producto {
     float: left;
-    height: 100%;
-
-}
-#header_busqueda{
-    background-color: rgb(0, 216, 112);
-    width: 40vw;
-    float: left;
-    height: 100%;
-}
-#header_boton{
-    background-color: rgb(155, 39, 39);
-    width: 30vw;
-    float: left;
-    height: 100%;
+    width: 48%;
+    margin: 1%;
 }
 
+.producto-right {
+    float: right;
+}
 
+.titulo-busqueda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    color: #e86005;
+}
 
+.titulo-busqueda h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #d45e10;
+}
 
+.buscar {
+    display: flex;
+    align-items: center;
+}
 
+.buscar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buscar button[type="submit"] {
+    background-color: #008CBA;
+    color: #c5c3d3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.buscar button[type="submit"]:hover {
+    background-color: #d45e10;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-container img {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.header-container h1 {
+    font-size: 32px;
+    margin: 0;
+}
